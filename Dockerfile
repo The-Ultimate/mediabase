@@ -5,5 +5,3 @@ RUN yum -y install epel-release wget git par2cmdline unrar python python-libs py
 	yum -y install p7zip python-pip && \
 	yum -y update && \
 	pip --no-cache-dir install cheetah requirements && \
-	cd ~ && \
-	git clone --depth 1 https://github.com/SickRage/SickRage.git /sickrage
