@@ -13,4 +13,3 @@ RUN yum -y install epel-release wget git par2cmdline unrar openssl openssl-devel
         cd yenc-0.4.0 && \
         python setup.py build && \
         python setup.py install && \
-	pip --no-cache-dir install cheetah requirements
