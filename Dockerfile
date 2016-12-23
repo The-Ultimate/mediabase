@@ -12,4 +12,4 @@ RUN yum -y install epel-release wget git par2cmdline unrar openssl openssl-devel
         tar zxvf yenc-0.4.0.tar.gz && \
         cd yenc-0.4.0 && \
         python setup.py build && \
-        python setup.py install && \
+        python setup.py install
